@@ -3,7 +3,7 @@ void main()
 {
     char strng[100];
     int state = 0;
-    int table[4][2] = {1,0,2,1,-1,3,1,3};
+    int table[4][2] = {1,0,2,0,-1,3,1,3};
     int i = 0;
     printf("Enter the String\n");
     scanf("%s", strng);
